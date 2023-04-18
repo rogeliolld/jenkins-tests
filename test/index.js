@@ -2,7 +2,7 @@ const sum = require('../');
 const assert = require('assert');
 
 describe('Sum', () => {
-  it('should handle positive numbers', () => {
+  it('should handle positive numbers prueba 3', () => {
     assert.equal(sum(3, 5), 8);
   });
   it('should handle negative numbers', () => {
